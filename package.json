@@ -1,0 +1,20 @@
+{
+  "name": "create-lists",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-beautiful-dnd": "^8.0.7",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "styled-components": "^3.4.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {}
+}
