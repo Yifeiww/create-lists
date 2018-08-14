@@ -79,6 +79,8 @@ class ListCreator extends Component {
         this.setState({lists: columns});
     };
 
+    // change the order of items in one list
+    // or move an item from one list to another
     onDragEnd = (result) => {
         const { destination, source, draggableId } = result;
         if (!destination) {
