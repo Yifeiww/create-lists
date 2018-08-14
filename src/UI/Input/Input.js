@@ -7,6 +7,7 @@ const Input = styled.input`
     border: 1px solid lightgrey;
     border-radius: 2px;
     width: 60%;
+    max-width: 400px;
 `;
 
 const input = (props) => {
