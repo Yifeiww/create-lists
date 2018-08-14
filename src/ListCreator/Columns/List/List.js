@@ -59,8 +59,6 @@ class List extends Component {
 
     deleteItemHandler = (listId, itemId) => {
         this.props.deleteItem(listId, itemId);
-        // const nextState = this.state.items.filter(item => item.id !== itemId);
-        // this.setState({items: nextState});
     };
 
     render() {
@@ -69,7 +67,7 @@ class List extends Component {
             <StyledColumn>
                 <TitleContainer>
                     <Title>{this.props.title}</Title>
-                    <Button clicked={this.props.delete} danger>Delete</Button>
+                    <Button clicked={this.props.deleteList} danger>Delete</Button>
                 </TitleContainer>
                 <InputContainer>
                     <Input

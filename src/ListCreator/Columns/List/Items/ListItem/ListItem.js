@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Button from '../../../../../UI/Button/Button';
 import { Draggable } from 'react-beautiful-dnd';
 
+
 const StyledItem = styled.div`
     border: 1px solid lightgrey;
     border-radius: 2px;
